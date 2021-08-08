@@ -2,13 +2,13 @@ $(document).ready(function(){
     //mi qani paher kan vor normal chen
     //bayc 3 hatov anel@ arandznahatkutyuna
 
-    var cont = 0;
-    var score = 0;
-    var turn = 0;
-    var hour = 0;
-    var minute = 0;
-    var second = 0;
-    var fruit = [];
+    var cont = 0,
+        score = 0,
+        turn = 0,
+        hour = 0,
+        minute = 0,
+        second = 0,
+        fruit = [];
     $(".startgame").click(function(){
         $(".start").slideUp(400);
         setInterval(function(){

@@ -2,7 +2,7 @@ $(document).ready(function(){
     //mi qani paher kan vor normal chen
     //bayc 3 hatov anel@ arandznahatkutyuna
 
-    var cont = 0,
+    let cont = 0,
         score = 0,
         turn = 0,
         hour = 0,
